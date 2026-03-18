@@ -1,0 +1,98 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f2f4f7;
+}
+
+/* HEADER */
+
+.header{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:#1f2937;
+color:white;
+padding:12px 20px;
+}
+
+.logo{
+font-size:20px;
+font-weight:bold;
+}
+
+.nav a{
+color:white;
+margin:0 10px;
+text-decoration:none;
+}
+
+.search{
+padding:6px;
+border-radius:5px;
+border:none;
+}
+
+.login{
+background:#2563eb;
+border:none;
+color:white;
+padding:8px 12px;
+border-radius:5px;
+}
+
+/* MAIN LAYOUT */
+
+.main-layout{
+display:grid;
+grid-template-columns: 3fr 1fr;
+height:calc(100vh - 60px);
+}
+
+/* MAP */
+
+#map{
+background:#d1d5db;
+}
+
+#map {
+height: 500px;
+position: relative;
+background: #e5e5e5;
+}
+
+/* SIDE PANEL */
+
+.side-panel{
+display:flex;
+flex-direction:column;
+padding:10px;
+background:white;
+}
+
+/* REPORTS */
+
+.reports{
+flex:1;
+margin-bottom:20px;
+}
+
+.reports ul{
+padding-left:20px;
+}
+
+/* SUBMIT REPORT */
+
+.submit-report input,
+.submit-report textarea{
+width:100%;
+margin-bottom:10px;
+padding:8px;
+}
+
+.submit-report button{
+background:#22c55e;
+border:none;
+padding:10px;
+color:white;
+border-radius:6px;
+}

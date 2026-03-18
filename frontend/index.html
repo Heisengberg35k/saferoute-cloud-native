@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SafeRoute</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">SafeRoute</div>
+
+<nav class="nav">
+<a href="#">Home</a>
+<a href="#">Reports</a>
+<a href="#">Community</a>
+<a href="#">About</a>
+</nav>
+
+<input class="search" placeholder="Search location...">
+
+<button class="login">Login</button>
+
+</header>
+
+
+<main class="main-layout">
+
+<div id="map"></div>
+
+<div class="side-panel">
+
+<section class="reports">
+
+<h3>Recent Reports</h3>
+
+<ul id="reportsList">
+
+<li>No reports yet</li>
+
+</ul>
+
+</section>
+
+
+<section class="submit-report">
+
+<h3>Submit Safety Report</h3>
+
+<form id="reportForm">
+
+<input type="text" placeholder="Title" required>
+
+<textarea placeholder="Description" required></textarea>
+
+<input type="file">
+
+<button type="submit">Submit Report</button>
+
+<label>Latitude</label>
+<input type="text" id="latitude" />
+
+<label>Longitude</label>
+<input type="text" id="longitude" />
+
+</form>
+
+</section>
+
+</div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
